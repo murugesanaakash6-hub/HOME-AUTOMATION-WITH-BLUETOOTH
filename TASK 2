@@ -1,0 +1,15 @@
+#define RELAY 8
+#define BUTTON 7
+
+void setup() {
+  pinMode(RELAY, OUTPUT);
+  pinMode(BUTTON, INPUT_PULLUP);
+}
+
+void loop() {
+  if (digitalRead(BUTTON) == LOW) {
+    digitalWrite(RELAY, HIGH);
+  } else {
+    digitalWrite(RELAY, LOW);
+  }
+}
