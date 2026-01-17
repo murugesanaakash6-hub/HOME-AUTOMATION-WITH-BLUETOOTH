@@ -1,0 +1,28 @@
+#define RELAY 8
+
+void setup() {
+  pinMode(RELAY, OUTPUT);
+  digitalWrite(RELAY, LOW);
+
+  Serial.begin(9600);
+  Serial.println("Type ON or OFF and press Enter");
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    String cmd = Serial.readStringUntil('\n');
+    cmd.trim();
+
+    if (cmd == "ON") {
+      digitalWrite(RELAY, HIGH);
+      Serial.println("Relay ON");
+    } 
+    else if (cmd == "OFF") {
+      digitalWrite(RELAY, LOW);
+      Serial.println("Relay OFF");
+    }
+    else {
+      Serial.println("Invalid Command");
+    }
+  }
+}
