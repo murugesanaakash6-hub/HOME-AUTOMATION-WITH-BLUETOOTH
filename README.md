@@ -17,3 +17,6 @@ The relay module is connected to the Arduino with three control pins: VCC, GND, 
 The load side of the relay uses the COM (Common) and NO (Normally Open) terminals. An LED with a current-limiting resistor is connected as the load, representing an electrical appliance. When the relay is energized, the NO contact closes, allowing current to flow and turning the LED ON. When the relay is deactivated, the circuit opens and the LED turns OFF.
 This system demonstrates the basic working principle of home automation using relays, serial communication, and microcontroller control. The black-and-white circuit diagram clearly shows the power connections, control signals, and load wiring, making it suitable for documentation, project reports, and academic submissions.
 
+#OUTPUT
+
+![Image](https://github.com/user-attachments/assets/7e485380-bcd9-4fa2-b203-b29157dac230
