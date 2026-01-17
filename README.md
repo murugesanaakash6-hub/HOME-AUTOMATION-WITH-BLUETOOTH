@@ -19,4 +19,4 @@ This system demonstrates the basic working principle of home automation using re
 
 #OUTPUT
 
-![Image](https://github.com/user-attachments/assets/7e485380-bcd9-4fa2-b203-b29157dac230
+![Image](https://github.com/user-attachments/assets/7e485380-bcd9-4fa2-b203-b29157dac230)
