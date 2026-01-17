@@ -1,16 +1,16 @@
 # HOME-AUTOMATION-WITH-BLUETOOTH
 
-"COMPANY": CODTECH IT SOLUTIONS
+COMPANY: CODTECH IT SOLUTIONS
 
-"NAME": AAKASH
+NAME: AAKASH
 
-"INTERN ID": CTIS0687
+INTERN ID: CTIS0687
 
-"DOMAIN": EMBEDDED SYSTEM
+DOMAIN: EMBEDDED SYSTEM
 
-"DURATION": 4 WEEKS
+DURATION: 4 WEEKS
 
-"MENTOR": NEELA SANTHOSH
+MENTOR: NEELA SANTHOSH
 
 ##This circuit represents a relay-based home automation system designed and simulated using the Wokwi platform. An Arduino UNO is used as the main controller to switch an electrical device ON and OFF through a single-channel relay module. Since Wokwi does not support real Bluetooth input, control is achieved using the Serial Monitor, which simulates wireless command input.
 The relay module is connected to the Arduino with three control pins: VCC, GND, and IN. The VCC pin is connected to the Arduino’s 5V supply, GND to ground, and the IN pin to a digital output pin (D8). When the Arduino receives a command from the Serial Monitor, it sends a HIGH or LOW signal to the relay input, activating or deactivating the relay.
